@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4A372639-8095-4BC4-9FA4-5C1D17EEE327}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{4A372639-8095-4BC4-9FA4-5C1D17EEE327}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="UI_click" ID="{A8E012BD-600C-4216-883F-81DC47B61349}" ShortID="572513725">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="220195__gameaudio__click-wooden-1" ID="{A7CFC7F7-752C-4902-AB78-66086D38A885}">
+							<Language>SFX</Language>
+							<AudioFile>220195__gameaudio__click-wooden-1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="300047266"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="220195__gameaudio__click-wooden-1" ID="{A7CFC7F7-752C-4902-AB78-66086D38A885}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Beeps" ID="{DB73E9DE-422C-4564-B80C-3672A81D06F7}" ShortID="992780921">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="220169__gameaudio__spacey-cricket-click" ID="{3F79DAAD-FDC4-42A8-BCB2-EEA23F9AB8F4}" ShortID="911407697">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="220169__gameaudio__spacey-cricket-click" ID="{64D4170A-1333-46CC-9A02-E0B8DF617CCD}">
+									<Language>SFX</Language>
+									<AudioFile>220169__gameaudio__spacey-cricket-click.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1000809251"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="220169__gameaudio__spacey-cricket-click" ID="{64D4170A-1333-46CC-9A02-E0B8DF617CCD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="220181__gameaudio__computer-beep-1" ID="{775BE7C8-8E06-41A2-B937-FB043E669D27}" ShortID="477627469">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="220181__gameaudio__computer-beep-1" ID="{48F75655-CAFA-4465-A2B0-383075B590AF}">
+									<Language>SFX</Language>
+									<AudioFile>220181__gameaudio__computer-beep-1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="753063961"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="220181__gameaudio__computer-beep-1" ID="{48F75655-CAFA-4465-A2B0-383075B590AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="220182__gameaudio__computer-beep-2" ID="{30142404-8170-47B5-9C99-5285B0721689}" ShortID="530541027">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="220182__gameaudio__computer-beep-2" ID="{66D32A12-39C0-46B9-A8B2-029E1B437849}">
+									<Language>SFX</Language>
+									<AudioFile>220182__gameaudio__computer-beep-2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="444077983"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="220182__gameaudio__computer-beep-2" ID="{66D32A12-39C0-46B9-A8B2-029E1B437849}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Space" ID="{CA6D1A91-FC0A-4062-BBB2-4016F4EEB7B5}" ShortID="202199352">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="220191__gameaudio__space-swoosh-brighter" ID="{9AE8330D-C8A3-4489-B582-E6D6AA0FE6A3}" ShortID="6385802">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="220191__gameaudio__space-swoosh-brighter" ID="{BF83ACD1-D883-4720-9B9D-F7C367A38CD1}">
+									<Language>SFX</Language>
+									<AudioFile>220191__gameaudio__space-swoosh-brighter.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="770430850"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="220191__gameaudio__space-swoosh-brighter" ID="{BF83ACD1-D883-4720-9B9D-F7C367A38CD1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="220192__gameaudio__space-swoosh-darker" ID="{3E79A362-3440-4D35-AA33-98237B70B134}" ShortID="61691831">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="220192__gameaudio__space-swoosh-darker" ID="{27FDABE4-5D6E-4125-AD6D-68F375FD58A4}">
+									<Language>SFX</Language>
+									<AudioFile>220192__gameaudio__space-swoosh-darker.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="880967147"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="220192__gameaudio__space-swoosh-darker" ID="{27FDABE4-5D6E-4125-AD6D-68F375FD58A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="220193__gameaudio__teleport-spacey" ID="{67813BEF-FC65-4D7C-80FE-255619F6E8B7}" ShortID="666437198">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="220193__gameaudio__teleport-spacey" ID="{2E32B03A-C21B-48B0-BDC6-AAE12BCFD488}">
+									<Language>SFX</Language>
+									<AudioFile>220193__gameaudio__teleport-spacey.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="55804643"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="220193__gameaudio__teleport-spacey" ID="{2E32B03A-C21B-48B0-BDC6-AAE12BCFD488}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="220191__gameaudio__space-swoosh-brighter" ID="{9AE8330D-C8A3-4489-B582-E6D6AA0FE6A3}"/>
+						<ItemRef Name="220192__gameaudio__space-swoosh-darker" ID="{3E79A362-3440-4D35-AA33-98237B70B134}"/>
+						<ItemRef Name="220193__gameaudio__teleport-spacey" ID="{67813BEF-FC65-4D7C-80FE-255619F6E8B7}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<BlendContainer Name="Wind" ID="{52E05D4A-7199-4E12-895D-43257E4BAD35}" ShortID="430519035">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="zapsplat_nature_wind_blustery_against_window_slightly_open_occ_howling_gusts_47143" ID="{08FA3BBF-B57C-4E93-94D4-BB3DA124588A}" ShortID="528101978">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_nature_wind_blustery_against_window_slightly_open_occ_howling_gusts_47143" ID="{286C1231-7E8B-4850-AA4D-C0F6DC5EDDB4}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_nature_wind_blustery_against_window_slightly_open_occ_howling_gusts_47143.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="520831210"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_nature_wind_blustery_against_window_slightly_open_occ_howling_gusts_47143" ID="{286C1231-7E8B-4850-AA4D-C0F6DC5EDDB4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_nature_wind_blustery_trees_distant_surf_and_frogs_tropical_after_rain_47144" ID="{1BEC6D7F-2D5A-446B-8C3A-E3CADC796C09}" ShortID="495459214">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_nature_wind_blustery_trees_distant_surf_and_frogs_tropical_after_rain_47144" ID="{716009BC-F07F-4B49-B46E-81C28CFAC224}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_nature_wind_blustery_trees_distant_surf_and_frogs_tropical_after_rain_47144.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="28606488"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_nature_wind_blustery_trees_distant_surf_and_frogs_tropical_after_rain_47144" ID="{716009BC-F07F-4B49-B46E-81C28CFAC224}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="wind" ID="{C593155C-A4E4-4803-9772-C7CA9215E69B}" ShortID="613761705">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="zapsplat_nature_wind_blustery_against_window_slightly_open_occ_howling_gusts_47143" ID="{08FA3BBF-B57C-4E93-94D4-BB3DA124588A}"/>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="zapsplat_nature_wind_blustery_trees_distant_surf_and_frogs_tropical_after_rain_47144" ID="{1BEC6D7F-2D5A-446B-8C3A-E3CADC796C09}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<RandomSequenceContainer Name="ShortGun" ID="{74E20CA5-41ED-42D1-86FD-C8E3EF4D7A47}" ShortID="1017855240">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="weapon" ID="{7C043D7B-415C-4174-BC7A-74FE3376FD36}" WorkUnitID="{A84FC0F3-B2BF-49C7-9B43-A8DA16F6998E}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="9_mm_gunshot-mike-koenig-123" ID="{CED55DF0-41E0-4437-B319-DE8159772791}" ShortID="580003982">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="9_mm_gunshot-mike-koenig-123" ID="{5110B7C0-6F29-4771-BF72-89DB0798FBAF}">
+									<Language>SFX</Language>
+									<AudioFile>9_mm_gunshot-mike-koenig-123.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="734214978"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="9_mm_gunshot-mike-koenig-123" ID="{5110B7C0-6F29-4771-BF72-89DB0798FBAF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="380_gunshot_single-mike-koenig" ID="{DC63659E-1086-4896-8AC7-F1EDB1E57B12}" ShortID="996846459">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="380_gunshot_single-mike-koenig" ID="{755A4FFD-1132-421E-AD20-7FD16362257A}">
+									<Language>SFX</Language>
+									<AudioFile>380_gunshot_single-mike-koenig.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="948901595"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="380_gunshot_single-mike-koenig" ID="{755A4FFD-1132-421E-AD20-7FD16362257A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GUN_FIRE-GoodSoundForYou-820112263" ID="{A672578A-4F31-4C05-B1CB-DA81BFB6BF14}" ShortID="73553912">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5F3EB15-CE88-486E-A3DB-E84113479643}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8373723-37F5-4746-92B3-E32D108D04BA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GUN_FIRE-GoodSoundForYou-820112263" ID="{57668904-CFA6-42B5-8F6B-BCEF90EEF451}">
+									<Language>SFX</Language>
+									<AudioFile>GUN_FIRE-GoodSoundForYou-820112263.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="471846870"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GUN_FIRE-GoodSoundForYou-820112263" ID="{57668904-CFA6-42B5-8F6B-BCEF90EEF451}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
