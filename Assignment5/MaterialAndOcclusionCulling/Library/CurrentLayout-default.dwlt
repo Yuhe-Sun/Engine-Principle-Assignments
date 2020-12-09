@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Package Manager
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -428,10 +428,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 322
-    y: 73
-    width: 633
-    height: 446
+    x: 209
+    y: 81
+    width: 393
+    height: 438
   m_ViewDataDictionary: {fileID: 0}
   m_Selected: 57236a6714b9e644dbb5f39152a17a6b
   m_GraphObject: {fileID: 0}
@@ -618,9 +618,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -29.64701, y: -2.4177608, z: -16.838793}
+    m_Target: {x: -5.060219, y: -18.746786, z: 43.02147}
     speed: 2
-    m_Value: {x: -29.64701, y: -2.4177608, z: -16.838793}
+    m_Value: {x: -5.060219, y: -18.746786, z: 43.02147}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -666,13 +666,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08080221, y: 0.7885773, z: -0.1061633, w: -0.600351}
+    m_Target: {x: -0.22372593, y: 0.2600096, z: -0.062083192, w: -0.93731797}
     speed: 2
-    m_Value: {x: -0.08079918, y: 0.7885477, z: -0.106159315, w: -0.60032845}
+    m_Value: {x: -0.2236239, y: 0.26140514, z: -0.062416293, w: -0.9368906}
   m_Size:
-    m_Target: 49.501957
+    m_Target: 48.91191
     speed: 2
-    m_Value: 49.501957
+    m_Value: 46.805656
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -852,19 +852,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Shaders
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Shaders
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\dengp\Documents\GameEnginePrincipalAssignments\Assignment5\IMDT
+  m_LastProjectPath: E:\THU\Cources\Engine\1004_EnginePrinciple-course05\IMDT
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3a3c0000
-    m_LastClickedID: 15418
+    m_SelectedIDs: 48480000
+    m_LastClickedID: 18504
     m_ExpandedIDs: 000000003a3c0000104800001248000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
